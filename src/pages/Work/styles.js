@@ -1,16 +1,18 @@
-//styles for projects page
+//styles for work page
 import styled from 'styled-components'
 import { white } from '@carbon/colors'
 
-export const ProjectItem = styled.li`
+export const WorkItem = styled.li`
   margin-top: 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid ${white};
 `
 
-export const ProjectTitle = styled.h4`
+export const WorkTitle = styled.h4`
   font-weight: bold;
 `
 
-export const SkillContainer = styled.div`
-  margin-top: 1.2rem;
+export const JobTitle = styled.p`
+  font-weight: bold;
+  display: inline-block;
+`

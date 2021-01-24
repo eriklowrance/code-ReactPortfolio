@@ -7,3 +7,4 @@ export const StyledContent = styled(Content)`
   @media (max-width: 640px) {
     margin-left: 0 !important;
   }
+`

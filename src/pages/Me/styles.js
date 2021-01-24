@@ -1,4 +1,5 @@
 //styles for the about me page
+
 import styled from 'styled-components'
 
 export const ProfileLink = styled.li`
@@ -6,3 +7,4 @@ export const ProfileLink = styled.li`
   margin-bottom: 0.5rem;
   display: inline-block;
   font-size: 18px;
+`
