@@ -4,9 +4,10 @@ import { ArrowRight16 } from '@carbon/icons-react';
 
 import { HeaderContainer, Header, Image, ViewResumeLink } from './styles';
 
+//using the user prop to populate data for this component
 const UserHeader = ({ user }) => {
   const location = useLocation();
-
+//useing the useLocation hook to determine we are on the home page
   return (
     <HeaderContainer isHome={location.pathname === '/'}>
       <Header>
