@@ -2,6 +2,7 @@ import React from 'react';
 import Sidebar from '../Sidebar';
 import UserHeader from '../UserHeader';
 import MobileNav from '../MobileNav';
+import Footer from '../Footer'
 
 import { StyledContent } from './styles';
 
@@ -15,6 +16,7 @@ const Layout = ({ user, children }) => {
         <UserHeader user={user} />
         <div>{children}</div>
       </StyledContent>
+      <Footer />
     </>
   );
 };
